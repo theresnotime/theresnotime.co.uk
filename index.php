@@ -80,7 +80,7 @@ if (isset($_GET['susmuffin'])) {
         <div class='row'>
             <div class='col'></div>
             <div class='col'>
-                <img src='img/pfp.png' class='img-fluid rounded'>
+                <img src='img/pfp3.png' class='img-fluid rounded'>
             </div>
             <div class='col'></div>
         </div>
