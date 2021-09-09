@@ -89,8 +89,7 @@ if (isset($_GET['susmuffin'])) {
             <div class='col-sm-3'></div>
             <div class='col-sm-6'>
                 <p class='lead'>
-                    I'm <a href='https://en.wikipedia.org/wiki/User:TheresNoTime' target='_blank'>TheresNoTime</a>, but the name I prefer to go by when not having to put up with
-                    puns about my username is the <strong>simple <i>gender-neutral</i> Sam</strong>.
+                    I'm <a href='https://en.wikipedia.org/wiki/User:TheresNoTime' target='_blank'>TheresNoTime</a>, but the name I prefer to go by (when <i>not</i> having to put up with terrible puns about my username) is <strong>Sam</strong>.
                 </p>
                 <p>
                     I’m from the South of England, do unspeakable things to technology and <s>enjoy long walks on the beach</s>.
