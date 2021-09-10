@@ -104,6 +104,7 @@ if (isset($_GET['susmuffin'])) {
                     [[<a href='https://twitter.com/TheresNoTimeFor' target='_blank'>Twitter</a>]]
                     [[<a href='https://www.theresnotime.co.uk/words/' target='_blank'>Blog</a>]]
                     [[<a href='https://calendar.theresnotime.co.uk' target='_blank'>Calendar</a>]]
+                    [[<a href='https://discord.gg/bby8TJ33EV' target='_blank'>Discord Server!</a>]]
                     [[<a href='https://tools.theresnotime.co.uk' target='_blank'>Tools</a>]]
                 </p>
             </div>
