@@ -7,6 +7,18 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link href="css/style.css" rel="stylesheet">
     <title>TheresNoTime | 👋</title>
+
+    <!-- SEO crap -->
+    <meta property="og:title" content="TheresNoTime">
+    <meta property="og:description" content="Wikipedia editor. Technology Shouter.">
+    <meta property="og:image" content="https://www.theresnotime.co.uk/img/pfp5.png">
+    <meta property="og:url" content="https://www.theresnotime.co.uk">
+    <meta name="twitter:title" content="TheresNoTime">
+    <meta name="twitter:description" content="Wikipedia editor. Technology Shouter.">
+    <meta name="twitter:image" content="https://www.theresnotime.co.uk/img/pfp5.png">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:site" content="@TheresNoTimeFor">
+
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-205260692-1"></script>
     <script>
