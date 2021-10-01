@@ -4,19 +4,23 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>TheresNoTime | 👋</title>
-    <!-- Preload stuff -->
+    <!-- Preload/prefetch/preconnect stuff -->
+    <!-- https://www.keycdn.com/blog/resource-hints -->
+    <link rel="dns-prefetch" href="//i1.wp.com" />
+    <link rel="dns-prefetch" href="//cdn.jsdelivr.net" />
+    <link rel="dns-prefetch" href="//imagedelivery.net" />
+    <link rel="dns-prefetch" href="//www.google-analytics.com">
+    <link rel="preconnect" href="https://imagedelivery.net">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://cdn.jsdelivr.net">
     <link rel="preload" href="css/style.css" as="style">
-    <link rel="preload" as="image"
+    <link rel="prefetch"
         href="https://imagedelivery.net/AGrQreg30nYRgc-xWuh5WA/213ee5a1-6e41-42c4-795e-d9dfd2d15e00/public">
-    <!-- DNS -->
-    <link rel='dns-prefetch' href='//s.w.org'/>
-    <link rel='dns-prefetch' href='//i0.wp.com'/>
-    <link rel='dns-prefetch' href='//i1.wp.com'/>
-    <link rel='dns-prefetch' href='//i2.wp.com'/>
-    <link rel='dns-prefetch' href='//c0.wp.com'/>
     <!-- Styles -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400&family=Nanum+Pen+Script&display=swap"
+        rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">
     <!-- SEO crap -->
     <meta property="og:title" content="TheresNoTime">
@@ -41,70 +45,76 @@
         function gtag() {
             dataLayer.push(arguments);
         }
-        gtag('js', new Date());
-        gtag('config', 'UA-205260692-1');
+        gtag("js", new Date());
+        gtag("config", "UA-205260692-1");
     </script>
+    <!-- Cookie script -->
+    <script type="text/javascript" id="cookiebanner"
+        src="https://cdn.jsdelivr.net/gh/dobarkod/cookie-banner@1.2.2/dist/cookiebanner.min.js" data-height="2em"
+        data-position="bottom" data-message="I use cookies, sorry - "
+        data-moreinfo="https://web.archive.org/web/20211001123934/https://www.vox.com/recode/2019/12/10/18656519/what-are-cookies-website-tracking-gdpr-privacy"
+        data-linkmsg="but why?" defer></script>
 </head>
 <body>
-    <div class='container text-center'>
-        <div class='row'>
-            <div class='col-sm pt-4'>
-                <h1 class='display-2 title-bit'>Hey, nice to meet you!</h1>
+    <div class="container text-center">
+        <div class="row">
+            <div class="col-sm pt-4">
+                <h1 class="display-2 title-bit">Hey, nice to meet you!</h1>
             </div>
         </div>
-        <div class='row'>
-            <div class='col'></div>
-            <div class='col-sm-5 col-md-4'>
-                <img src='https://imagedelivery.net/AGrQreg30nYRgc-xWuh5WA/213ee5a1-6e41-42c4-795e-d9dfd2d15e00/public'
-                    class='img-fluid rounded'>
+        <div class="row">
+            <div class="col"></div>
+            <div class="col-sm-5 col-md-4">
+                <img src="https://imagedelivery.net/AGrQreg30nYRgc-xWuh5WA/213ee5a1-6e41-42c4-795e-d9dfd2d15e00/public"
+                    class="img-fluid rounded">
             </div>
-            <div class='col'></div>
+            <div class="col"></div>
         </div>
-        <div class='row pt-3'>
-            <div class='col-sm-3'></div>
-            <div class='col-sm-6'>
-                <p class='lead'>
-                    I'm Sam, but you might know me as <a href='https://en.wikipedia.org/wiki/User:TheresNoTime'
-                        target='_blank'>TheresNoTime</a> 😅
+        <div class="row pt-3">
+            <div class="col-sm-3"></div>
+            <div class="col-sm-6">
+                <p class="lead">
+                    My name is <strong>Sam</strong>, but you might know me as <a href="https://en.wikipedia.org/wiki/User:TheresNoTime"
+                        target="_blank">TheresNoTime</a> 😅
                 </p>
                 <p>
                     I’m from the South of England, I do unspeakable things to technology and I edit Wikipedia.
                 </p>
             </div>
-            <div class='col-sm-3'></div>
+            <div class="col-sm-3"></div>
         </div>
-        <div class='row'>
-            <div class='col'>
+        <div class="row">
+            <div class="col">
                 <p>
                     . . . .
                 </p>
             </div>
         </div>
-        <div class='row'>
-            <div class='col'>
+        <div class="row">
+            <div class="col">
                 <p>
-                    While you're here, you should...
+                    While you"re here, you should...
                 </p>
             </div>
         </div>
-        <div class='row'>
-            <div class='col'>
+        <div class="row">
+            <div class="col">
                 <p>
-                    [[ <a href='https://twitter.com/TheresNoTimeFor' target='_blank'>Follow me on Twitter</a> ]]
+                    [[ <a href="https://twitter.com/TheresNoTimeFor" target="_blank">Follow me on Twitter</a> ]]
                 </p>
             </div>
         </div>
-        <div class='row'>
-            <div class='col'>
+        <div class="row">
+            <div class="col">
                 <p>
-                    [[ <a href='https://words.theresnotime.co.uk' target='_blank'>Read my blog</a> ]]
+                    [[ <a href="https://words.theresnotime.co.uk" target="_blank">Read my blog</a> ]]
                 </p>
             </div>
         </div>
-        <div class='row'>
-            <div class='col'>
+        <div class="row">
+            <div class="col">
                 <p>
-                    [[ <a href='https://discord.gg/HDkHHRRs' target='_blank'>Join my Discord Server!</a> ]]
+                    [[ <a href="https://discord.gg/HDkHHRRs" target="_blank">Join my Discord Server!</a> ]]
                 </p>
             </div>
         </div>
