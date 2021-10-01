@@ -1,19 +1,16 @@
-@import url('https://fonts.googleapis.com/css2?family=Handlee&family=Jaldi&family=Nanum+Pen+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Handlee&family=Open+Sans&family=Josefin+Sans:wght@300;400&family=Nanum+Pen+Script&display=swap');
 
 html {
     background-color: whitesmoke;
 }
 
 body {
-    font-family: 'Jaldi', sans-serif;
+    font-family: 'Josefin Sans', sans-serif;
     color: black;
     background-color: inherit;
+    font-weight: 300;
 }
 
 .title-bit {
     font-family: 'Nanum Pen Script', cursive;
-}
-
-.lead {
-    font-size: 1.4rem;
 }
