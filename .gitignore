@@ -2,3 +2,4 @@
 words/
 .htaccess
 .litespeed_flag
+node_modules/

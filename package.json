@@ -1,0 +1,21 @@
+{
+  "name": "theresnotime.co.uk",
+  "version": "1.0.0",
+  "description": "My website eh",
+  "scripts": {
+    "test": "npx prettier -c ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/theresnotime/theresnotime.co.uk.git"
+  },
+  "author": "Sammy",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/theresnotime/theresnotime.co.uk/issues"
+  },
+  "homepage": "https://github.com/theresnotime/theresnotime.co.uk#readme",
+  "devDependencies": {
+    "prettier": "^2.7.1"
+  }
+}

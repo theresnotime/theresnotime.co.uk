@@ -1,14 +1,14 @@
 html {
-    background-color: whitesmoke;
+  background-color: whitesmoke;
 }
 
 body {
-    font-family: 'Josefin Sans', sans-serif;
-    color: black;
-    background-color: inherit;
-    font-weight: 300;
+  font-family: "Josefin Sans", sans-serif;
+  color: black;
+  background-color: inherit;
+  font-weight: 300;
 }
 
 .title-bit {
-    font-family: 'Nanum Pen Script', cursive;
+  font-family: "Nanum Pen Script", cursive;
 }
