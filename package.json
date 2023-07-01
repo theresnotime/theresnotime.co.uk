@@ -1,0 +1,21 @@
+{
+  "name": "theresnotime.co.uk",
+  "version": "1.0.0",
+  "description": "Website for TheresNoTime",
+  "scripts": {
+    "test": "prettier --check public/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/theresnotime/theresnotime.co.uk.git"
+  },
+  "author": "TheresNoTime",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/theresnotime/theresnotime.co.uk/issues"
+  },
+  "homepage": "https://github.com/theresnotime/theresnotime.co.uk#readme",
+  "devDependencies": {
+    "prettier": "^2.8.8"
+  }
+}
