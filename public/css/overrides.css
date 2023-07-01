@@ -19,3 +19,32 @@
 .title:hover {
     color: #999;
 }
+
+.meme {
+    width: 100%;
+    height: auto;
+}
+
+.pt-2 {
+    padding-top: 0.5rem !important;
+}
+
+.pt-3 {
+    padding-top: 1rem !important;
+}
+
+.pt-4 {
+    padding-top: 1.5rem !important;
+}
+
+.pt-5 {
+    padding-top: 3rem !important;
+}
+
+.foot {
+    font-size: 1rem;
+    margin: 0;
+    margin-top: 5em;
+    color: #555;
+    text-align: center;
+}
