@@ -1,0 +1,21 @@
+#profile-picture {
+    border-radius: 1%;
+}
+
+.text-muted a {
+    color: #999;
+}
+
+.note-section {
+    text-align: start;
+}
+
+.title-link,
+.title-link:hover {
+    color: inherit;
+    text-decoration: none;
+}
+
+.title:hover {
+    color: #999;
+}

@@ -1,0 +1,23 @@
+{
+  "hosting": {
+    "cleanUrls": true,
+    "public": "public",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ],
+    "redirects": [
+      {
+        "source": "/elsewhere",
+        "destination": "/",
+        "type": 301
+      },
+      {
+        "source": "/socials",
+        "destination": "/",
+        "type": 301
+      }
+    ]
+  }
+}
