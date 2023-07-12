@@ -17,6 +17,6 @@
   },
   "homepage": "https://github.com/theresnotime/theresnotime.co.uk#readme",
   "devDependencies": {
-    "prettier": "^2.8.8"
+    "prettier": "^3.0.0"
   }
 }
