@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "description": "Website for TheresNoTime",
   "scripts": {
-    "test": "prettier --check public/"
+    "test": "prettier --check public/",
+    "fix": "prettier --write public/"
   },
   "repository": {
     "type": "git",
