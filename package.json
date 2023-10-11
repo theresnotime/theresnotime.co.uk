@@ -4,7 +4,8 @@
   "description": "Website for TheresNoTime",
   "scripts": {
     "test": "prettier --check public/",
-    "fix": "prettier --write public/"
+    "fix": "prettier --write public/",
+    "host": "browser-sync start --server 'public/' --files 'public/'"
   },
   "repository": {
     "type": "git",
@@ -17,6 +18,7 @@
   },
   "homepage": "https://github.com/theresnotime/theresnotime.co.uk#readme",
   "devDependencies": {
-    "prettier": "^3.0.3"
+    "prettier": "^3.0.3",
+    "browser-sync": "^2.29.3"
   }
 }
