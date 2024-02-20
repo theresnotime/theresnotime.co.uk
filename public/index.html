@@ -29,6 +29,20 @@
                 "url": "https://www.theresnotime.co.uk"
             }
         </script>
+        <script>
+            window.addEventListener('load', function () {
+                function swapPfp() {
+                    pfp = document.getElementById('profile-picture')
+                    if (pfp.src.includes('pfp.png')) {
+                        pfp.src = '/img/pfp_closed.png'
+                        setTimeout(() => {
+                            pfp.src = '/img/pfp.png'
+                        }, 1000)
+                    }
+                }
+                setInterval(swapPfp, 30000)
+            })
+        </script>
     </head>
     <body>
         <main>
