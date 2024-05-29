@@ -3,9 +3,12 @@
   "version": "1.0.0",
   "description": "Website for TheresNoTime",
   "scripts": {
-    "test": "prettier --check public/",
-    "fix": "prettier --write public/",
-    "host": "browser-sync start --server 'public/' --files 'public/'"
+    "test": "npm run check && npm run prettier",
+    "prettier": "prettier --check public/ scripts/",
+    "check": "node scripts/check.js",
+    "fix": "prettier --write public/ scripts/",
+    "host": "browser-sync start --server 'public/' --files 'public/'",
+    "new": "node scripts/new.js"
   },
   "repository": {
     "type": "git",

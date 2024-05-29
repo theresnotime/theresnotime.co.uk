@@ -32,16 +32,16 @@
         <script>
             window.addEventListener('load', function () {
                 function swapPfp() {
-                    pfp = document.getElementById('profile-picture')
+                    pfp = document.getElementById('profile-picture');
                     if (pfp.src.includes('pfp.png')) {
-                        pfp.src = '/img/pfp_closed.png'
+                        pfp.src = '/img/pfp_closed.png';
                         setTimeout(() => {
-                            pfp.src = '/img/pfp.png'
-                        }, 1000)
+                            pfp.src = '/img/pfp.png';
+                        }, 1000);
                     }
                 }
-                setInterval(swapPfp, 30000)
-            })
+                setInterval(swapPfp, 30000);
+            });
         </script>
         <style>
             .buttons {
