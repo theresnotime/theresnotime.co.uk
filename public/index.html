@@ -7,14 +7,16 @@
         <meta name="robots" content="index, follow" />
         <meta
             name="description"
-            content="A 20-something, quintessentially queer software engineer" />
+            content="A 30-something, quintessentially queer software engineer" />
         <meta property="og:type" content="website" />
         <meta property="og:title" content="Sammy" />
         <meta property="og:url" content="https://www.theresnotime.co.uk" />
         <meta
             property="og:description"
-            content="A 20-something, quintessentially queer software engineer" />
-        <meta property="og:image" content="/img/pfp.png" />
+            content="A 30-something, quintessentially queer software engineer" />
+        <meta
+            property="og:image"
+            content="https://wd.theresnotime.io/static/t/img/embed/fox_header.png" />
         <link href="css/base.css" rel="stylesheet" />
         <link href="css/monokai.css" rel="stylesheet" />
         <link href="css/overrides.css" rel="stylesheet" />
@@ -32,16 +34,16 @@
         <script>
             window.addEventListener('load', function () {
                 function swapPfp() {
-                    pfp = document.getElementById('profile-picture')
+                    pfp = document.getElementById('profile-picture');
                     if (pfp.src.includes('pfp.png')) {
-                        pfp.src = '/img/pfp_closed.png'
+                        pfp.src = '/img/pfp_closed.png';
                         setTimeout(() => {
-                            pfp.src = '/img/pfp.png'
-                        }, 1000)
+                            pfp.src = '/img/pfp.png';
+                        }, 1000);
                     }
                 }
-                setInterval(swapPfp, 30000)
-            })
+                setInterval(swapPfp, 30000);
+            });
         </script>
         <style>
             .buttons {
@@ -77,7 +79,7 @@
             <div id="details"></div>
             <div id="bio">
                 <p>
-                    A 20-something, quintessentially queer software engineer™
+                    A 30-something, quintessentially queer software engineer™
                     at
                     <a href="https://wikimediafoundation.org">Wikimedia</a>,
                     interested in community moderation and governance.
@@ -317,7 +319,15 @@
                         <span class="fa-li">
                             <i class="fa-solid fa-question"></i>
                         </span>
-                        <a href="/reviews">Silly reviews</a>
+                        <a href="name-change.html">My legal name has changed</a>
+                    </li>
+                    <li>
+                        <span class="fa-li">
+                            <i class="fa-solid fa-question"></i>
+                        </span>
+                        <a href="https://www.wikidata.org/wiki/Q110242813"
+                            >Q110242813</a
+                        >
                     </li>
                     <li>
                         <span class="fa-li">

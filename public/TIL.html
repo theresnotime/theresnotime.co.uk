@@ -1,0 +1,255 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <title>TIL: Today I Learnt</title>
+        <meta name="robots" content="index, follow" />
+        <meta
+            name="description"
+            content="A log of Things I Learnt Today... TILT?" />
+        <meta property="og:type" content="website" />
+        <meta property="og:title" content="TIL: Today I Learnt" />
+        <meta property="og:url" content="https://www.theresnotime.co.uk/TIL" />
+        <meta
+            property="og:description"
+            content="A log of Things I Learnt Today... TILT?" />
+        <meta
+            property="og:image"
+            content="https://wd.theresnotime.io/static/t/img/embed/fox_header.png" />
+        <link href="css/base.css" rel="stylesheet" />
+        <link href="css/monokai.css" rel="stylesheet" />
+        <link href="css/overrides.css" rel="stylesheet" />
+        <style>
+            .log {
+                display: flex;
+                flex-direction: column;
+                text-align: start;
+            }
+            .thing h2 {
+                font-size: 1.5em;
+                margin-bottom: 0.2rem;
+            }
+            .thing-subtitle {
+                margin-top: 0rem;
+                margin-bottom: 1.5rem;
+                font-size: 0.8em;
+                font-style: italic;
+            }
+
+            /* Search stuff */
+            .is-hidden {
+                display: none;
+            }
+            .search {
+                margin-bottom: 1rem;
+                margin-top: 1rem;
+            }
+            #searchbox {
+                padding: 0.5rem;
+            }
+            .not-found {
+                border: 1px solid red;
+            }
+        </style>
+    </head>
+    <body>
+        <main>
+            <div id="profile-picture-container">
+                <img
+                    alt="A fox emoji"
+                    id="profile-picture"
+                    src="/img/pfp.png" />
+            </div>
+            <h1 id="TIL">TIL: Today I Learnt</h1>
+            <div class="search">
+                <input placeholder="Search.." type="search" id="searchbox" />
+            </div>
+            <div class="log">
+                <div class="thing">
+                    <h2 class="anchor-heading" id="FiraCode">FiraCode</h2>
+                    <p class="thing-subtitle"
+                        ><a href="https://github.com/tonsky/FiraCode"
+                            >github.com/tonsky/FiraCode</a
+                        ></p
+                    >
+                    <p>
+                        <em>FiraCode</em> is a free monospaced font containing
+                        ligatures for common programming multi-character
+                        combinations.
+                    </p>
+                </div>
+                <div class="thing">
+                    <h2 class="anchor-heading" id="Invidious">Invidious</h2>
+                    <p class="thing-subtitle"
+                        ><a href="https://github.com/iv-org/invidious"
+                            >github.com/iv-org/invidious</a
+                        ></p
+                    >
+                    <p>
+                        <em>Invidious</em> is a front-end for YouTube that
+                        doesn't track you (and does other cool stuff).
+                    </p>
+                </div>
+                <div class="thing">
+                    <h2 class="anchor-heading" id="learnxinyminutes"
+                        >Learn X in Y minutes</h2
+                    >
+                    <p class="thing-subtitle"
+                        ><a href="https://learnxinyminutes.com"
+                            >learnxinyminutes.com</a
+                        ></p
+                    >
+                    <p>
+                        <em>Learn X in Y minutes</em> is a collection of short
+                        lessons in various programming languages.
+                    </p>
+                </div>
+                <div class="thing">
+                    <h2 class="anchor-heading" id="cheat-sh">cheat.sh</h2>
+                    <p class="thing-subtitle"
+                        ><a href="https://cheat.sh">cheat.sh</a></p
+                    >
+                    <p>
+                        <em>cheat.sh</em> is a <code>curl</code>-able way of
+                        accessing community driven documentation repos for a
+                        range of techy stuff.</p
+                    >
+                </div>
+                <div class="thing">
+                    <h2 class="anchor-heading" id="Colemak">Colemak</h2>
+                    <p class="thing-subtitle"
+                        ><a href="https://colemak.com">colemak.com</a></p
+                    >
+                    <p>
+                        <em>Colemak</em> is a modern alternative to the QWERTY
+                        and Dvorak layouts, designed for efficient and ergonomic
+                        touch typing in English.
+                    </p>
+                </div>
+                <div class="thing">
+                    <h2 class="anchor-heading" id="sub_module">sub_module</h2>
+                    <p class="thing-subtitle"
+                        ><a
+                            href="https://nginx.org/en/docs/http/ngx_http_sub_module.html"
+                            >nginx.org/en/docs/http/ngx_http_sub_module</a
+                        ></p
+                    >
+                    <p>
+                        The <em>ngx_http_sub_module</em> module is a filter that
+                        modifies a response by replacing one specified string by
+                        another. tl;dr its regex find and replace for things
+                        served by nginx.
+                    </p>
+                </div>
+                <div class="thing">
+                    <h2 class="anchor-heading" id="moar">moar</h2>
+                    <p class="thing-subtitle"
+                        ><a href="https://github.com/walles/moar"
+                            >github.com/walles/moar</a
+                        ></p
+                    >
+                    <p>
+                        <em>Moar</em> is a pager. It reads and displays UTF-8
+                        encoded text from files or pipelines.
+                    </p>
+                </div>
+                <div class="thing">
+                    <h2 class="anchor-heading" id="thefuck">thefuck</h2>
+                    <p class="thing-subtitle"
+                        ><a href="https://github.com/nvbn/thefuck"
+                            >github.com/nvbn/thefuck</a
+                        ></p
+                    >
+                    <p>
+                        <em>The Fuck</em> is a CLI application that corrects
+                        errors in previous console commands. Think
+                        <code>git staus</code> autocorrecting to
+                        <code>git status</code>.
+                    </p>
+                </div>
+                <div class="thing">
+                    <h2 class="anchor-heading" id="hashtag-place"
+                        >hashtag.place</h2
+                    >
+                    <p class="thing-subtitle"
+                        ><a href="https://hashtag.place">hashtag.place</a></p
+                    >
+                    <p>
+                        <em>hashtag.place</em> converts any fediverse hashtag
+                        into an account to follow — so
+                        <code>#wikipedia</code> can be followed like
+                        <code>@wikipedia@hashtag.place</code>.
+                    </p>
+                </div>
+                <div class="thing">
+                    <h2 class="anchor-heading" id="sonic-pi">sonic-pi</h2>
+                    <p class="thing-subtitle"
+                        ><a href="https://sonic-pi.net">sonic-pi.net</a></p
+                    >
+                    <p>
+                        <em>Sonic Pi</em> is a code-based music creation and
+                        performance tool — gimme some
+                        <a href="https://sonic-pi.net/#examples"
+                            >haunted bells as code</a
+                        >
+                        pls!
+                    </p>
+                </div>
+            </div>
+
+            <!-- Dumb search thing -->
+            <script>
+                let delayTimer;
+                let delayTime = 500;
+                let searchInput = document.getElementById('searchbox');
+
+                searchInput.addEventListener('keyup', () => {
+                    clearTimeout(delayTimer);
+                    delayTimer = setTimeout(liveSearch, delayTime);
+                });
+
+                function liveSearch() {
+                    let things = document.querySelectorAll('.thing');
+                    let searchbox = document.getElementById('searchbox');
+                    let search_query = searchbox.value;
+                    let found_things = 0;
+
+                    for (var i = 0; i < things.length; i++) {
+                        if (
+                            things[i].textContent
+                                .toLowerCase()
+                                .includes(search_query.toLowerCase())
+                        ) {
+                            things[i].classList.remove('is-hidden');
+                            found_things++;
+                        } else {
+                            things[i].classList.add('is-hidden');
+                        }
+                    }
+                    if (found_things === 0) {
+                        searchbox.classList.add('not-found');
+                    } else {
+                        searchbox.classList.remove('not-found');
+                    }
+                }
+            </script>
+            <div id="footer" class="foot">
+                <p class="pt-1"
+                    >Opinions expressed are my own,
+                    <a href="/disclaimers">etc.</a></p
+                >
+                <p>
+                    <a
+                        rel="license"
+                        href="http://creativecommons.org/licenses/by-nc-sa/4.0/">
+                        <img
+                            alt="Creative Commons Licence"
+                            style="border-width: 0"
+                            src="https://i.creativecommons.org/l/by-nc-sa/4.0/80x15.png" />
+                    </a>
+                </p>
+            </div>
+        </main>
+    </body>
+</html>
