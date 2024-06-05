@@ -29,7 +29,7 @@ let file_template = `<!doctype html>
         <meta
             property="og:description"
             content="${page_description}" />
-        <meta property="og:image" content="https://wd.theresnotime.io/static/t/img/embed/pfp.png" />
+        <meta property="og:image" content="https://wd.theresnotime.io/static/t/img/embed/fox_header.png" />
         <link href="css/base.css" rel="stylesheet" />
         <link href="css/monokai.css" rel="stylesheet" />
         <link href="css/overrides.css" rel="stylesheet" />
