@@ -17,6 +17,11 @@
         "source": "/socials",
         "destination": "/",
         "type": 301
+      },
+      {
+        "source": "/til",
+        "destination": "/TIL",
+        "type": 301
       }
     ]
   }
