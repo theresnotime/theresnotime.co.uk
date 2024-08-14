@@ -3,7 +3,7 @@
     <head>
         <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <title>found</title>
+        <title>You found something :3</title>
         <meta name="robots" content="index, follow" />
         <meta name="description" content="Found a device?" />
         <meta property="og:type" content="website" />
@@ -18,6 +18,17 @@
         <link href="css/base.css" rel="stylesheet" />
         <link href="css/monokai.css" rel="stylesheet" />
         <link href="css/overrides.css" rel="stylesheet" />
+        <style>
+            .without-decoration {
+                text-decoration: none !important;
+                border-bottom: none !important;
+            }
+
+            #reward {
+                margin-top: 4rem;
+                font-size: small;
+            }
+        </style>
     </head>
     <body>
         <main>
@@ -27,18 +38,29 @@
                     id="profile-picture"
                     src="/img/pfp.png" />
             </div>
-            <h1>You found a device!</h1>
+            <h1>You found something of mine!</h1>
             <p
                 >Unfortunately, this isn't an easter egg hunt 😅 — if this
-                device looks lost, please
+                device/thing looks lost, please
                 <a href="mailto:sam@theresnotime.co.uk">contact me</a> to return
-                it for a reward.</p
+                it for a reward<sup
+                    ><a class="without-decoration" href="#reward">*</a></sup
+                >.</p
             >
             <p
                 >If you've just scanned this and it <em>doesn't</em> appear to
-                be lost (i.e. you're sat opposite me using it..) then...
-                congrats I guess? Say hi! :3</p
+                be lost (i.e. you're sat opposite me using it/it's attached to
+                me..) then... congrats I guess? Say hi! :3</p
             >
+            <div id="reward">
+                <p
+                    ><em
+                        >* Probably best I don't commit to any specific rewards
+                        here, but y'know... a sum of money relative to the thing
+                        returned :3
+                    </em></p
+                >
+            </div>
             <div>
                 <p class="pt-5"
                     >More contact methods <a href="/">on the homepage</a>...</p
