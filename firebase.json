@@ -7,6 +7,13 @@
       "**/.*",
       "**/node_modules/**"
     ],
+    "headers": [ {
+      "source": ".well-known/webfinger",
+      "headers": [ {
+        "key": "Content-Type",
+        "value": "application/ld+json"
+      } ]
+    } ],
     "redirects": [
       {
         "source": "/elsewhere",
@@ -24,5 +31,14 @@
         "type": 301
       }
     ]
+  },
+  "emulators": {
+    "hosting": {
+      "port": 5089
+    },
+    "ui": {
+      "enabled": true
+    },
+    "singleProjectMode": true
   }
 }

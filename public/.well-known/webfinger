@@ -1,0 +1,23 @@
+{
+    "subject": "acct:theresnotime@fox.nexus",
+    "aliases": [
+        "https://fox.nexus/@theresnotime",
+        "https://fox.nexus/users/theresnotime"
+    ],
+    "links": [
+        {
+            "rel": "http://webfinger.net/rel/profile-page",
+            "type": "text/html",
+            "href": "https://fox.nexus/@theresnotime"
+        },
+        {
+            "rel": "self",
+            "type": "application/activity+json",
+            "href": "https://fox.nexus/users/theresnotime"
+        },
+        {
+            "rel": "http://ostatus.org/schema/1.0/subscribe",
+            "template": "https://fox.nexus/authorize_interaction?uri={uri}"
+        }
+    ]
+}
