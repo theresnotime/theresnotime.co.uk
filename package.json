@@ -3,12 +3,13 @@
   "version": "1.0.0",
   "description": "Website for TheresNoTime",
   "scripts": {
-    "test": "npm run check && npm run prettier",
+    "test": "npm run check && npm run prettier && npm run check-buttons",
     "prettier": "prettier --check public/ scripts/",
     "check": "node scripts/check.js",
     "fix": "prettier --write public/ scripts/",
     "host": "browser-sync start --server 'public/' --files 'public/'",
-    "new": "node scripts/new.js"
+    "new": "node scripts/new.js",
+    "check-buttons": "node scripts/check-buttons.js"
   },
   "repository": {
     "type": "git",
@@ -21,7 +22,7 @@
   },
   "homepage": "https://github.com/theresnotime/theresnotime.co.uk#readme",
   "devDependencies": {
-    "prettier": "^3.3.2",
-    "browser-sync": "^3.0.2"
+    "browser-sync": "^3.0.2",
+    "prettier": "^3.3.2"
   }
 }
