@@ -5,6 +5,8 @@ const { hostname } = require('node:os');
 const path = require('node:path');
 const exit = require('node:process').exit;
 
+const temp_skip = ['https://k4m1.net/button.gif'];
+
 async function checkImageExists(url) {
     return new Promise((resolve, reject) => {
         requestOptions = {
@@ -39,6 +41,10 @@ async function doCheck(file) {
         const re = /src: '(?<src_url>https?:\/\/.*?.(png|gif|jpg|apng))/gm;
         for (const match of data.matchAll(re)) {
             let img_url = match.groups.src_url;
+            if (temp_skip.includes(img_url)) {
+                console.log(`Skipping ${img_url}`);
+                continue;
+            }
             total_images++;
             // http request to check if the image exists
             await checkImageExists(img_url).then((exists) => {
