@@ -1,4 +1,4 @@
-window.addEventListener('load', function () {
+window.addEvxentListener('load', function () {
     console.log('meow');
     let buttons = {
         'theresnotime.co.uk': {
@@ -9,10 +9,10 @@ window.addEventListener('load', function () {
             href: 'https://beehive.gay',
             src: 'https://beehive.gay/button.png',
         },
-        //'k4m1.net': {
-        //    href: 'https://k4m1.net',
-        //    src: 'https://k4m1.net/button.gif',
-        //x},
+        'k4m1.net': {
+            href: 'https://k4m1.net',
+            src: 'https://k4m1.net/button.gif',
+        },
         'seirdy.one': {
             href: 'https://seirdy.one',
             src: 'https://seirdy.one/sticker_88x31.png',
