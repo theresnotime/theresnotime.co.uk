@@ -1,4 +1,4 @@
-window.addEvxentListener('load', function () {
+window.addEventListener('load', function () {
     console.log('meow');
     let buttons = {
         'theresnotime.co.uk': {
