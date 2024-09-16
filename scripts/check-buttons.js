@@ -5,7 +5,7 @@ const { hostname } = require('node:os');
 const path = require('node:path');
 const exit = require('node:process').exit;
 
-const temp_skip = ['https://k4m1.net/button.gif'];
+const temp_skip = [''];
 
 async function checkImageExists(url) {
     return new Promise((resolve, reject) => {
