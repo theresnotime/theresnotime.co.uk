@@ -57,6 +57,10 @@ window.addEventListener('load', function () {
             href: 'https://astrid.tech',
             src: 'https://s3.us-west-000.backblazeb2.com/nyaabucket/a313cf12a8c46d0262c69cdf8a3accc3b6a2d159b8e1211b7abe30886a212884/astriddottech.png',
         },
+        '~thermia': {
+            href: 'https://girlthi.ng/~thermia/',
+            src: 'https://girlthi.ng/~thermia/img/88x31/thermia.gif',
+        },
     };
     // Loop through the JSON object
     for (let key in buttons) {
