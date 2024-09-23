@@ -64,7 +64,7 @@ window.addEventListener('load', function () {
         'catwithaclarinet': {
             href: 'https://blog.catwithaclari.net',
             src: 'https://blog.catwithaclari.net/button.png',
-        };
+        },
     };
     // Loop through the JSON object
     for (let key in buttons) {
