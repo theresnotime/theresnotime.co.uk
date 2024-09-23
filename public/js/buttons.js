@@ -61,7 +61,7 @@ window.addEventListener('load', function () {
             href: 'https://girlthi.ng/~thermia/',
             src: 'https://girlthi.ng/~thermia/img/88x31/thermia.gif',
         },
-        'catwithaclarinet': {
+        catwithaclarinet: {
             href: 'https://blog.catwithaclari.net',
             src: 'https://blog.catwithaclari.net/button.png',
         },
