@@ -67,7 +67,7 @@ window.addEventListener('load', function () {
         },
         'oli.pages.gay': {
             href: 'https://oli.pages.gay',
-            src: 'hhttps://oli.pages.gay/badges/WebButton.svg',
+            src: 'https://oli.pages.gay/badges/WebButton.svg',
         },
     };
     // Loop through the JSON object
