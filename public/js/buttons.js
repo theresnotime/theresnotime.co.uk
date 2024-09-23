@@ -61,6 +61,10 @@ window.addEventListener('load', function () {
             href: 'https://girlthi.ng/~thermia/',
             src: 'https://girlthi.ng/~thermia/img/88x31/thermia.gif',
         },
+        'catwithaclarinet': {
+            href: 'https://blog.catwithaclari.net',
+            src: 'https://blog.catwithaclari.net/button.png',
+        };
     };
     // Loop through the JSON object
     for (let key in buttons) {
