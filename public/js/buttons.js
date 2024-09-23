@@ -65,6 +65,10 @@ window.addEventListener('load', function () {
             href: 'https://blog.catwithaclari.net',
             src: 'https://blog.catwithaclari.net/button.png',
         },
+        'oli.pages.gay': {
+            href: 'https://oli.pages.gay',
+            src: 'hhttps://oli.pages.gay/badges/WebButton.svg',
+        },
     };
     // Loop through the JSON object
     for (let key in buttons) {
