@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "description": "Website for TheresNoTime",
   "scripts": {
-    "test": "npm run check && npm run prettier && npm run check-buttons",
+    "test": "npm run check && npm run prettier",
+    "test-all": "npm run check && npm run prettier && npm run check-buttons",
     "prettier": "prettier --check public/ scripts/",
     "check": "node scripts/check.js",
     "fix": "prettier --write public/ scripts/",
