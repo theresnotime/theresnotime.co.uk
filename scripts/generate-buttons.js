@@ -78,6 +78,10 @@ let buttons = {
         href: 'https://famfo.xyz',
         src: 'https://famfo.xyz/banner/famfo_anim.gif',
     },
+    'filmroellchen.eu': {
+        href: 'https://filmroellchen.eu',
+        src: 'https://filmroellchen.eu/img/kleines_filmroellchen.png',
+    },
 };
 let buttonLinks = '';
 for (let key in buttons) {
