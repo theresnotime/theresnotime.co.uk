@@ -10,7 +10,8 @@
     "fix": "prettier --write public/ scripts/",
     "host": "browser-sync start --server 'public/' --files 'public/'",
     "new": "node scripts/new.js",
-    "check-buttons": "node scripts/check-buttons.js"
+    "check-buttons": "node scripts/check-buttons.js",
+    "generate-buttons": "node scripts/generate-buttons.js && npm run fix"
   },
   "repository": {
     "type": "git",
