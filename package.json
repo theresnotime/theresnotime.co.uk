@@ -7,6 +7,7 @@
     "test-all": "npm run check && npm run prettier && npm run check-buttons",
     "prettier": "prettier --check public/ scripts/",
     "validate": "w3c-html-validator --delay=1000 '--exclude=fedi-archive' '--ignore-config=.validatorrc' --continue public/",
+    "add-hash": "node scripts/add-hash.js && npm test",
     "check": "node scripts/check.js",
     "fix": "prettier --write public/ scripts/",
     "host": "browser-sync start --server 'public/' --files 'public/'",
