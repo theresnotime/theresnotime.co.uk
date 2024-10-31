@@ -70,6 +70,14 @@ let buttons = {
         href: 'https://oli.pages.gay',
         src: 'https://oli.pages.gay/badges/WebButton.svg',
     },
+    'famfo.xyz': {
+        href: 'https://famfo.xyz',
+        src: 'https://famfo.xyz/banner/famfo_anim.gif',
+    },
+    'famfo.xyz': {
+        href: 'https://famfo.xyz',
+        src: 'https://famfo.xyz/banner/famfo_anim.gif',
+    },
 };
 let buttonLinks = '';
 for (let key in buttons) {
