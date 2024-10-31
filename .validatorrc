@@ -1,0 +1,3 @@
+# Ignore Config for w3c-html-validator
+
+/^Trailing slash on void elements/
