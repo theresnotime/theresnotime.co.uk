@@ -1,16 +1,16 @@
 {
-    sonas: [
+    "sonas": [
         {
-            name: "Sammy",
-            pronouns: "They/Them",
-            gender: "Nonbinary",
-            species: "Fox",
-            description: "A non-binary but feminine leaning anthropomorphic orange fox with a large, orange tail. They are wearing large circular glasses, a purple hoodie and black shorts.",
-            ref: "https://www.theresnotime.co.uk/fursona",
-            refAlt: "A non-binary but feminine leaning anthropomorphic orange fox with a large, orange tail. They are wearing large circular glasses, a purple hoodie and black shorts.",
-            avatar: "https://www.theresnotime.co.uk/img/fursona/currently-me.png",
-            avatarAlt: "A non-binary but feminine leaning anthropomorphic orange fox with a large, orange tail. They are wearing large circular glasses, a purple hoodie and black shorts.",
-            colors: [
+            "name": "Sammy",
+            "pronouns": "They/Them",
+            "gender": "Nonbinary",
+            "species": "Fox",
+            "description": "A non-binary but feminine leaning anthropomorphic orange fox with a large, orange tail. They are wearing large circular glasses, a purple hoodie and black shorts.",
+            "ref": "https://www.theresnotime.co.uk/fursona",
+            "refAlt": "A non-binary but feminine leaning anthropomorphic orange fox with a large, orange tail. They are wearing large circular glasses, a purple hoodie and black shorts.",
+            "avatar": "https://www.theresnotime.co.uk/img/fursona/currently-me.png",
+            "avatarAlt": "A non-binary but feminine leaning anthropomorphic orange fox with a large, orange tail. They are wearing large circular glasses, a purple hoodie and black shorts.",
+            "colors": [
                 "#ffa96c",
                 "#ce9fba",
                 "#c9ae63"
