@@ -7,13 +7,22 @@
       "**/.*",
       "**/node_modules/**"
     ],
-    "headers": [ {
-      "source": ".well-known/webfinger",
-      "headers": [ {
-        "key": "Content-Type",
-        "value": "application/ld+json"
-      } ]
-    } ],
+    "headers": [
+      {
+        "source": ".well-known/webfinger",
+        "headers": [ {
+          "key": "Content-Type",
+          "value": "application/ld+json"
+        } ]
+      },
+      {
+        "source": ".well-known/fursona",
+        "headers": [ {
+          "key": "Content-Type",
+          "value": "application/ld+json"
+        } ]
+      }
+    ],
     "redirects": [
       {
         "source": "/elsewhere",
