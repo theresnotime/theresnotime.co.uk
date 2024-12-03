@@ -10,7 +10,7 @@
     "add-hash": "node scripts/add-hash.js && npm test",
     "check": "node scripts/check.js",
     "fix": "prettier --write public/ scripts/",
-    "host": "browser-sync start --server 'public/' --files 'public/'",
+    "host": "firebase emulators:start",
     "new": "node scripts/new.js",
     "check-buttons": "node scripts/check-buttons.js",
     "generate-buttons": "node scripts/generate-buttons.js && npm run fix"
@@ -27,7 +27,8 @@
   "homepage": "https://github.com/theresnotime/theresnotime.co.uk#readme",
   "devDependencies": {
     "browser-sync": "^3.0.2",
-    "prettier": "^3.3.3",
+    "firebase": "^11.0.2",
+    "prettier": "^3.4.1",
     "w3c-html-validator": "^1.8.2"
   }
 }
