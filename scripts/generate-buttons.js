@@ -82,6 +82,10 @@ let buttons = {
         href: 'https://filmroellchen.eu',
         src: 'https://filmroellchen.eu/img/kleines_filmroellchen.png',
     },
+    'volpeon.ink': {
+        href: 'https://volpeon.ink',
+        src: '/img/btn/volpeon.svg',
+    },
 };
 let buttonLinks = '';
 for (let key in buttons) {
