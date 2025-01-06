@@ -1,6 +1,11 @@
 const fs = require('node:fs');
 const exit = require('node:process').exit;
 
+if (process.argv.length < 3) {
+    console.error('Usage: node new.js <title> [description]');
+    exit(1);
+}
+
 let page_title = `${process.argv[2]}`;
 let page_filename = `${page_title}.html`;
 // Description is either argv[3] or a default

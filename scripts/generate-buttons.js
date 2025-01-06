@@ -68,11 +68,7 @@ let buttons = {
     },
     'oli.pages.gay': {
         href: 'https://oli.pages.gay',
-        src: 'https://oli.pages.gay/badges/WebButton.svg',
-    },
-    'famfo.xyz': {
-        href: 'https://famfo.xyz',
-        src: 'https://famfo.xyz/banner/famfo_anim.gif',
+        src: '/img/btn/oli.svg',
     },
     'famfo.xyz': {
         href: 'https://famfo.xyz',
@@ -85,6 +81,10 @@ let buttons = {
     'volpeon.ink': {
         href: 'https://volpeon.ink',
         src: '/img/btn/volpeon.svg',
+    },
+    'servfail.network': {
+        href: 'https://beta.servfail.network',
+        src: 'https://beta.servfail.network/servfail-88_31.png',
     },
 };
 let buttonLinks = '';
