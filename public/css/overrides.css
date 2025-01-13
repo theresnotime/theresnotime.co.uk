@@ -48,3 +48,17 @@
     color: #555;
     text-align: center;
 }
+
+.emojione {
+    font-size: inherit;
+    height: 16px;
+    margin: -0.2ex 0 0.2ex;
+    object-fit: contain;
+    vertical-align: middle;
+    width: 16px;
+}
+
+.subtitle {
+    font-size: small;
+    opacity: 0.5;
+}
