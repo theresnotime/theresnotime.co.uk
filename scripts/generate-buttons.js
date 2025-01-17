@@ -86,6 +86,10 @@ let buttons = {
         href: 'https://beta.servfail.network',
         src: 'https://beta.servfail.network/servfail-88_31.png',
     },
+    'eep.wtf': {
+        href: 'https://eep.wtf',
+        src: 'https://eep.wtf/static/88x31/eep.gif',
+    },
 };
 let buttonLinks = '';
 for (let key in buttons) {
