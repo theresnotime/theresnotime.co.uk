@@ -28,7 +28,7 @@
   "devDependencies": {
     "browser-sync": "^3.0.2",
     "firebase": "^11.0.2",
-    "prettier": "^3.4.1",
+    "prettier": "^3.5.2",
     "w3c-html-validator": "^1.8.2"
   }
 }
