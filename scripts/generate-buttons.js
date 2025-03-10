@@ -90,6 +90,18 @@ let buttons = {
         href: 'https://eep.wtf',
         src: 'https://eep.wtf/static/88x31/eep.gif',
     },
+    'sophari.org': {
+        href: 'https://sophari.org',
+        src: 'https://sophari.org/img/sophari.gif',
+    },
+    'shift.gay': {
+        href: 'https://shift.gay',
+        src: 'https://shift.gay/88x31.png',
+    },
+    'sdomi.pl': {
+        href: 'https://sdomi.pl',
+        src: 'https://sdomi.pl/img/button.bmp',
+    },
 };
 let buttonLinks = '';
 for (let key in buttons) {
