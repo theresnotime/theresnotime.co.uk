@@ -101,6 +101,13 @@ let buttons = {
     'sdomi.pl': {
         href: 'https://sdomi.pl',
         src: 'https://sdomi.pl/img/button.bmp',
+        alt: 'An 88x31 button. Witch hat on the left, text "sdomi" on the right. The background is procedurally generated every 30 or so seconds.',
+    },
+    'smolderg.xyz': {
+        href: 'https://smolderg.xyz',
+        src: '/img/btn/theysosmall_by_liah.png',
+        comment:
+            'please host a copy of the image yourself instead of hotlinking',
     },
 };
 let buttonLinks = '';
@@ -108,7 +115,12 @@ for (let key in buttons) {
     const buttonArray = buttons[key];
     const href = buttonArray['href'];
     const src = buttonArray['src'];
-    const alt = key + ' button';
+    let alt = '';
+    if (buttonArray['alt']) {
+        alt = buttonArray['alt'];
+    } else {
+        alt = key + ' button';
+    }
 
     const buttonLink =
         "<a href='" + href + "'><img src='" + src + "' alt='" + alt + "'></a>";

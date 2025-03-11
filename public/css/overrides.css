@@ -62,3 +62,8 @@
     font-size: small;
     opacity: 0.5;
 }
+
+.without-decoration {
+    text-decoration: none !important;
+    border-bottom: none !important;
+}
