@@ -63,8 +63,8 @@ let buttons = {
         src: 'https://girlthi.ng/~thermia/img/88x31/thermia.gif',
     },
     'catwithaclari.net': {
-        href: 'https://blog.catwithaclari.net',
-        src: 'https://blog.catwithaclari.net/button.png',
+        href: 'https://betablog.catwithaclari.net',
+        src: 'https://betablog.catwithaclari.net/images/button.png',
     },
     'oli.pages.gay': {
         href: 'https://oli.pages.gay',
