@@ -26,7 +26,7 @@
   },
   "homepage": "https://github.com/theresnotime/theresnotime.co.uk#readme",
   "devDependencies": {
-    "browser-sync": "^3.0.2",
+    "browser-sync": "^3.0.4",
     "firebase": "^11.0.2",
     "prettier": "^3.4.1",
     "w3c-html-validator": "^1.8.2"
