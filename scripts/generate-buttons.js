@@ -109,6 +109,10 @@ let buttons = {
         comment:
             'please host a copy of the image yourself instead of hotlinking',
     },
+    'damcraft.de': {
+        href: 'https://damcraft.de',
+        src: 'https://damcraft.de/assets/88x31/dam.gif',
+    },
 };
 let buttonLinks = '';
 for (let key in buttons) {
