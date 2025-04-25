@@ -113,6 +113,10 @@ let buttons = {
         href: 'https://damcraft.de',
         src: 'https://damcraft.de/assets/88x31/dam.gif',
     },
+    'fungal.locahlo.st': {
+        href: 'https://fungal.locahlo.st',
+        src: 'https://fungal.locahlo.st/medias/88x31/fungal.locahlo.st.png',
+    },
 };
 let buttonLinks = '';
 for (let key in buttons) {
