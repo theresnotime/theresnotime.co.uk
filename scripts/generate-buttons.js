@@ -117,6 +117,10 @@ let buttons = {
         href: 'https://fungal.locahlo.st',
         src: 'https://fungal.locahlo.st/medias/88x31/fungal.locahlo.st.png',
     },
+    'liv.town': {
+        href: 'https://liv.town',
+        src: 'https://liv.town/assets/img/livtown-button.gif',
+    },
 };
 let buttonLinks = '';
 for (let key in buttons) {
