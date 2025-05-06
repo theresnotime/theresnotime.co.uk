@@ -24,7 +24,7 @@ let buttons = {
     },
     'xaselgio.net': {
         href: 'https://xaselgio.net',
-        src: 'https://xaselgio.net/88x31_xaselgio.gif',
+        src: 'https://xaselgio.net/88x31_xaselgio_v2.gif',
     },
     'slonk.ing': {
         href: 'https://slonk.ing',
@@ -120,6 +120,10 @@ let buttons = {
     'liv.town': {
         href: 'https://liv.town',
         src: 'https://liv.town/assets/img/livtown-button.gif',
+    },
+    'eloydegen.com': {
+        href: 'https://eloydegen.com',
+        src: 'https://eloydegen.com/images/eloy_88x31.gif',
     },
 };
 let buttonLinks = '';
