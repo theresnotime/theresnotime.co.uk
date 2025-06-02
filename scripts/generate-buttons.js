@@ -4,6 +4,7 @@ const exit = require('node:process').exit;
 const buttons = require('./buttons.json');
 
 let buttonLinks = '';
+let seenSrcs = {};
 for (let key in buttons) {
     const buttonArray = buttons[key];
     const href = buttonArray['href'];
@@ -19,9 +20,24 @@ for (let key in buttons) {
         comment = buttonArray['comment'];
     }
 
+    // Add src to seen image srcs to avoid duplicates
+    if (seenSrcs[src]) {
+        console.warn(
+            '[WARN] Duplicate link found:',
+            src,
+            'for key:',
+            key,
+            ' — ignoring'
+        );
+        continue; // Skip this button if the src is already seen
+    } else {
+        seenSrcs[src] = true; // Mark this src as seen
+    }
+
     let buttonLink =
         "href='" + href + "'><img src='" + src + "' alt='" + alt + "'></a>";
     if (buttonArray['hidden']) {
+        console.info('[INFO] Hiding button for:', key);
         // Hide the button
         buttonLink =
             "<a data-comment='" +
@@ -32,9 +48,20 @@ for (let key in buttons) {
         buttonLink = '<a ' + buttonLink;
     }
     buttonLinks += buttonLink + '\n';
+    console.info('[INFO] Generated button link for:', key, '-->', buttonLink);
 }
 
-console.log(buttonLinks);
+// Make a backup of the original index.html file
+fs.copyFile('./public/index.html', './public/index.bak.html', (err) => {
+    if (err) {
+        console.error('[ERROR] Could not create backup of index.html:', err);
+        exit(1);
+    } else {
+        console.log('[OK] Backup of index.html created successfully.');
+    }
+});
+
+// Update index.html with the generated buttons
 fs.readFile('./public/index.html', 'utf8', async (err, data) => {
     if (err) {
         console.error(err);
@@ -48,6 +75,6 @@ fs.readFile('./public/index.html', 'utf8', async (err, data) => {
         '<!-- end of generated buttons -->\n</p>';
     data = data.replace(/<p id="inner-buttons">.*?<\/p>/gms, replacementString);
     fs.writeFile('./public/index.html', data, function (err) {
-        err || console.log('Data replaced \n', data);
+        err || console.log('[OK] Data replaced :-)');
     });
 });

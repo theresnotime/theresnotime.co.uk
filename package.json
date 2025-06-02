@@ -13,7 +13,8 @@
     "host": "firebase emulators:start",
     "new": "node scripts/new.js",
     "check-buttons": "node scripts/check-buttons.js",
-    "generate-buttons": "node scripts/generate-buttons.js && npm run fix"
+    "generate-buttons": "node scripts/generate-buttons.js && npm run fix",
+    "cache-buttons": "node scripts/cache-buttons.js"
   },
   "repository": {
     "type": "git",

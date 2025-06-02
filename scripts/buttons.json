@@ -41,7 +41,9 @@
     },
     "winter.entities.org.uk": {
         "href": "https://winter.entities.org.uk",
-        "src": "https://winter.entities.org.uk/buttons/self.png"
+        "src": "https://winter.entities.org.uk/buttons/self.png",
+        "hidden": true,
+        "comment": "Link broken"
     },
     "taavi.wtf": {
         "href": "https://taavi.wtf",
@@ -79,10 +81,6 @@
         "href": "https://volpeon.ink",
         "src": "/img/btn/volpeon.svg"
     },
-    "servfail.network": {
-        "href": "https://beta.servfail.network",
-        "src": "https://beta.servfail.network/servfail-88_31.png"
-    },
     "eep.wtf": {
         "href": "https://eep.wtf",
         "src": "https://eep.wtf/static/88x31/eep.gif"
@@ -115,10 +113,48 @@
     },
     "liv.town": {
         "href": "https://liv.town",
-        "src": "https://liv.town/assets/img/livtown-button.gif"
+        "src": "https://liv.town/assets/img/livtown-button.gif",
+        "hidden": true,
+        "comment": "Link broken"
     },
     "eloydegen.com": {
         "href": "https://eloydegen.com",
         "src": "https://eloydegen.com/images/eloy_88x31.gif"
+    },
+    "flufftech.net": {
+        "href": "https://flufftech.net",
+        "src": "https://flufftech.net/button.png"
+    },
+    "ielenia.lgbt": {
+        "href": "https://ielenia.lgbt",
+        "src": "https://ielenia.lgbt/88x31.png"
+    },
+    "atomicmaya.me": {
+        "href": "https://atomicmaya.me",
+        "src": "https://atomicmaya.me/assets/images/88x31/personal.png"
+    },
+    "alyx.sh": {
+        "href": "https://alyx.sh",
+        "src": "https://alyx.sh/images/88x31/alyxv2.png"
+    },
+    "fawnover.fun": {
+        "href": "https://fawnover.fun",
+        "src": "https://fawnover.fun/assets/buttons/me.svg"
+    },
+    "0xportal.dev": {
+        "href": "https://0xportal.dev",
+        "src": "https://0xportal.dev/public/88x31/0xPortal.gif"
+    },
+    "73926.gaycat.me": {
+        "href": "https://73926.gaycat.me",
+        "src": "https://73926.gaycat.me/images/buttons/jade88x31.png"
+    },
+    "finlee.ee": {
+        "href": "https://finlee.ee",
+        "src": "https://finlee.ee/assets/buttons/me.gif"
+    },
+    "finlee": {
+        "href": "https://finlee.ee",
+        "src": "https://finlee.ee/assets/buttons/me.gif"
     }
 }
