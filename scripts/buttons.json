@@ -152,5 +152,9 @@
     "finlee.ee": {
         "href": "https://finlee.ee",
         "src": "https://finlee.ee/assets/buttons/me.gif"
+    },
+    "notnite.com": {
+        "href": "https://notnite.com",
+        "src": "https://notnite.com/buttons/notnite.png"
     }
 }
