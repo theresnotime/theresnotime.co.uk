@@ -156,5 +156,9 @@
     "notnite.com": {
         "href": "https://notnite.com",
         "src": "https://notnite.com/buttons/notnite.png"
+    },
+    "vulpinecitrus.info": {
+        "href": "https://vulpinecitrus.info",
+        "src": "https://vulpinecitrus.info/vcinfo-online.png"
     }
 }
