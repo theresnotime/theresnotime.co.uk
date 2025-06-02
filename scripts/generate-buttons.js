@@ -14,9 +14,23 @@ for (let key in buttons) {
     } else {
         alt = key + ' button';
     }
+    let comment = '';
+    if (buttonArray['comment']) {
+        comment = buttonArray['comment'];
+    }
 
-    const buttonLink =
-        "<a href='" + href + "'><img src='" + src + "' alt='" + alt + "'></a>";
+    let buttonLink =
+        "href='" + href + "'><img src='" + src + "' alt='" + alt + "'></a>";
+    if (buttonArray['hidden']) {
+        // Hide the button
+        buttonLink =
+            "<a data-comment='" +
+            comment +
+            "' style='display:none;' " +
+            buttonLink;
+    } else {
+        buttonLink = '<a ' + buttonLink;
+    }
     buttonLinks += buttonLink + '\n';
 }
 
