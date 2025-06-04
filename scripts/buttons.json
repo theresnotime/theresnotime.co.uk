@@ -160,5 +160,13 @@
     "vulpinecitrus.info": {
         "href": "https://vulpinecitrus.info",
         "src": "https://vulpinecitrus.info/vcinfo-online.png"
+    },
+    "moniridia.codeberg.page": {
+        "href": "https://moniridia.codeberg.page",
+        "src": "https://moniridia.codeberg.page/@main/Moniridia_88x31.png"
+    },
+    "enjarai.dev": {
+        "href": "https://enjarai.dev",
+        "src": "https://enjarai.dev/assets/my-button.png"
     }
 }
