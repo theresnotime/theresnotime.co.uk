@@ -168,5 +168,17 @@
     "enjarai.dev": {
         "href": "https://enjarai.dev",
         "src": "https://enjarai.dev/assets/my-button.png"
+    },
+    "starlight.lgbt": {
+        "href": "https://starlight.lgbt",
+        "src": "https://starlight.lgbt/imgs/88x31/Starlight-88x31.gif"
+    },
+    "query.44203.online": {
+        "href": "https://query.44203.online/",
+        "src": "https://download.from.44203.online/visors-88x31.gif"
+    },
+    "floof.gay": {
+        "href": "https://floof.gay",
+        "src": "https://floof.gay/img/badges/olivia.png"
     }
 }
