@@ -93,11 +93,6 @@
         "href": "https://shift.gay",
         "src": "https://shift.gay/88x31.png"
     },
-    "sdomi.pl": {
-        "href": "https://sdomi.pl",
-        "src": "https://sdomi.pl/img/button.bmp",
-        "alt": "An 88x31 button. Witch hat on the left, text \"sdomi\" on the right. The background is procedurally generated every 30 or so seconds."
-    },
     "smolderg.xyz": {
         "href": "https://smolderg.xyz",
         "src": "/img/btn/theysosmall_by_liah.png",
@@ -180,5 +175,13 @@
     "floof.gay": {
         "href": "https://floof.gay",
         "src": "https://floof.gay/img/badges/olivia.png"
+    },
+    "cobble.cat": {
+        "href": "https://cobble.cat",
+        "src": "https://cobble.cat/images/buttons/cobblecat.gif"
+    },
+    "itycodes.org": {
+        "href": "https://itycodes.org",
+        "src": "https://itycodes.org/88x31.png"
     }
 }
