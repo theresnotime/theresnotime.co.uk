@@ -63,7 +63,9 @@
     },
     "catwithaclari.net": {
         "href": "https://betablog.catwithaclari.net",
-        "src": "https://betablog.catwithaclari.net/images/button.png"
+        "src": "https://betablog.catwithaclari.net/images/button.png",
+        "hidden": true,
+        "comment": "Link broken"
     },
     "oli.pages.gay": {
         "href": "https://oli.pages.gay",
@@ -183,5 +185,9 @@
     "itycodes.org": {
         "href": "https://itycodes.org",
         "src": "https://itycodes.org/88x31.png"
+    },
+    "wolfyja.de": {
+        "href": "https://wolfyja.de",
+        "src": "https://wolfyja.de/badges/awoo-now.png"
     }
 }
