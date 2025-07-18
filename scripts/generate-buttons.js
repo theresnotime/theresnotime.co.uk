@@ -9,6 +9,10 @@ for (let key in buttons) {
     const buttonArray = buttons[key];
     const href = buttonArray['href'];
     const src = buttonArray['src'];
+    if (buttonArray['dng']) {
+        // Skip this button if 'dng' is true
+        continue;
+    }
     let alt = '';
     if (buttonArray['alt']) {
         alt = buttonArray['alt'];

@@ -14,6 +14,7 @@ async function checkImageExists(url) {
             path: new URL(url).pathname,
             protocol: new URL(url).protocol,
             method: 'HEAD',
+            rejectUnauthorized: false, // Allow self-signed certs
             headers: {
                 'User-Agent': 'check-buttons.js, from theresnotime.co.uk :3',
             },
@@ -38,7 +39,7 @@ async function doCheck(file) {
             console.error(err);
             exit(1);
         }
-        const re = /src: '(?<src_url>https?:\/\/.*?.(png|gif|jpg|apng))/gm;
+        const re = /"src": "(?<src_url>https?:\/\/.*?.(png|gif|jpg|apng))/gm;
         for (const match of data.matchAll(re)) {
             let img_url = match.groups.src_url;
             if (temp_skip.includes(img_url)) {
@@ -68,4 +69,4 @@ async function doCheck(file) {
     });
 }
 
-doCheck('public/js/buttons.js');
+doCheck('scripts/buttons.json');

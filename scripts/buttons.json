@@ -73,7 +73,8 @@
     },
     "famfo.xyz": {
         "href": "https://famfo.xyz",
-        "src": "https://famfo.xyz/banner/famfo_anim.gif"
+        "src": "/img/btn/famfo_anim.gif",
+        "comment": "Taken locally because this often doesn't load"
     },
     "filmroellchen.eu": {
         "href": "https://filmroellchen.eu",
@@ -100,9 +101,9 @@
         "src": "/img/btn/theysosmall_by_liah.png",
         "comment": "please host a copy of the image yourself instead of hotlinking"
     },
-    "damcraft.de": {
-        "href": "https://damcraft.de",
-        "src": "https://damcraft.de/assets/88x31/dam.gif"
+    "lina.sh": {
+        "href": "https://lina.sh",
+        "src": "https://lina.sh/assets/88x31/lina.gif"
     },
     "fungal.locahlo.st": {
         "href": "https://fungal.locahlo.st",
@@ -140,7 +141,9 @@
     },
     "0xportal.dev": {
         "href": "https://0xportal.dev",
-        "src": "https://0xportal.dev/public/88x31/0xPortal.gif"
+        "src": "https://0xportal.dev/public/88x31/0xPortal.gif",
+        "hidden": true,
+        "comment": "Link broken"
     },
     "73926.gaycat.me": {
         "href": "https://73926.gaycat.me",
@@ -148,7 +151,10 @@
     },
     "finlee.ee": {
         "href": "https://finlee.ee",
-        "src": "https://finlee.ee/assets/buttons/me.gif"
+        "src": "https://finlee.ee/assets/buttons/me.gif",
+        "hidden": true,
+        "comment": "Link broken",
+        "dng": true
     },
     "notnite.com": {
         "href": "https://notnite.com",
@@ -160,11 +166,13 @@
     },
     "moniridia.codeberg.page": {
         "href": "https://moniridia.codeberg.page",
-        "src": "https://moniridia.codeberg.page/@main/Moniridia_88x31.png"
+        "src": "https://moniridia.codeberg.page/@main/Moniridia_88x31.png",
+        "hidden": true,
+        "comment": "Link broken"
     },
     "enjarai.dev": {
         "href": "https://enjarai.dev",
-        "src": "https://enjarai.dev/assets/my-button.png"
+        "src": "https://page.enjarai.dev/assets/my-button.png"
     },
     "starlight.lgbt": {
         "href": "https://starlight.lgbt",
@@ -189,5 +197,13 @@
     "wolfyja.de": {
         "href": "https://wolfyja.de",
         "src": "https://wolfyja.de/badges/awoo-now.png"
+    },
+    "potatoe.ca": {
+        "href": "https://potatoe.ca",
+        "src": "https://potatoe.ca/images/88x31/potatoe.png"
+    },
+    "yassie_j": {
+        "href": "https://labyrinth.zone/users/yassie_j",
+        "src": "/img/btn/yassie_j.gif"
     }
 }
