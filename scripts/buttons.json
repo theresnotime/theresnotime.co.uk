@@ -208,5 +208,13 @@
         "href": "https://www.5snb.club",
         "src": "/img/btn/522@5snb.club.png",
         "comment": "Do not hotlink"
+    },
+    "fuxle.net": {
+        "href": "https://fuxle.net",
+        "src": "https://fuxle.net/assets/images/88x31/fuxle/simple.png"
+    },
+    "999eagle.moe": {
+        "href": "https://999eagle.moe",
+        "src": "https://999eagle.moe/images/88x31/440729.png"
     }
 }
