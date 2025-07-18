@@ -203,5 +203,10 @@
     "yassie_j": {
         "href": "https://labyrinth.zone/users/yassie_j",
         "src": "/img/btn/yassie_j.gif"
+    },
+    "5snb.club": {
+        "href": "https://www.5snb.club",
+        "src": "/img/btn/522@5snb.club.png",
+        "comment": "Do not hotlink"
     }
 }
