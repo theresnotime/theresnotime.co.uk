@@ -11,6 +11,10 @@
         "href": "https://k4m1.net",
         "src": "https://k4m1.net/button.gif"
     },
+    "vulpinecitrus.info": {
+        "href": "https://vulpinecitrus.info",
+        "src": "https://vulpinecitrus.info/vcinfo-online.png"
+    },
     "seirdy.one": {
         "href": "https://seirdy.one",
         "src": "https://seirdy.one/sticker_88x31.png"
@@ -160,10 +164,6 @@
         "href": "https://notnite.com",
         "src": "https://notnite.com/buttons/notnite.png"
     },
-    "vulpinecitrus.info": {
-        "href": "https://vulpinecitrus.info",
-        "src": "https://vulpinecitrus.info/vcinfo-online.png"
-    },
     "moniridia.codeberg.page": {
         "href": "https://moniridia.codeberg.page/@main/main.html",
         "src": "https://moniridia.codeberg.page/@main/LythicDreams-button.png"
@@ -178,7 +178,7 @@
     },
     "query.44203.online": {
         "href": "https://query.44203.online/",
-        "src": "https://download.from.44203.online/visors-88x31.gif"
+        "src": "https://query.44203.online/88x31/query.44203.online.png"
     },
     "floof.gay": {
         "href": "https://floof.gay",
