@@ -165,10 +165,8 @@
         "src": "https://vulpinecitrus.info/vcinfo-online.png"
     },
     "moniridia.codeberg.page": {
-        "href": "https://moniridia.codeberg.page",
-        "src": "https://moniridia.codeberg.page/@main/Moniridia_88x31.png",
-        "hidden": true,
-        "comment": "Link broken"
+        "href": "https://moniridia.codeberg.page/@main/main.html",
+        "src": "https://moniridia.codeberg.page/@main/LythicDreams-button.png"
     },
     "enjarai.dev": {
         "href": "https://enjarai.dev",
