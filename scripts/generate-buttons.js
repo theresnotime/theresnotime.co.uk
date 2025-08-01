@@ -39,7 +39,13 @@ for (let key in buttons) {
     }
 
     let buttonLink =
-        "href='" + href + "'><img src='" + src + "' alt='" + alt + "'></a>";
+        "href='" +
+        href +
+        '\'><img loading="lazy" src=\'' +
+        src +
+        "' alt='" +
+        alt +
+        "'></a>";
     if (buttonArray['hidden']) {
         console.info('[INFO] Hiding button for:', key);
         // Hide the button
