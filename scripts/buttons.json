@@ -166,15 +166,24 @@
     },
     "moniridia.codeberg.page": {
         "href": "https://moniridia.codeberg.page/@main/main.html",
-        "src": "https://moniridia.codeberg.page/@main/LythicDreams-button.png"
+        "src": "https://moniridia.codeberg.page/@main/LythicDreams-button.png",
+        "hidden": true,
+        "comment": "Link broken",
+        "dng": true
     },
     "enjarai.dev": {
         "href": "https://enjarai.dev",
-        "src": "https://page.enjarai.dev/assets/my-button.png"
+        "src": "https://page.enjarai.dev/assets/my-button.png",
+        "hidden": true,
+        "comment": "Link broken",
+        "dng": true
     },
     "starlight.lgbt": {
         "href": "https://starlight.lgbt",
-        "src": "https://starlight.lgbt/imgs/88x31/Starlight-88x31.gif"
+        "src": "https://starlight.lgbt/imgs/88x31/Starlight-88x31.gif",
+        "hidden": true,
+        "comment": "Link broken",
+        "dng": true
     },
     "query.44203.online": {
         "href": "https://query.44203.online/",
