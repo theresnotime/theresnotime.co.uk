@@ -75,7 +75,7 @@
             </div>
             <h1 id="top">Sammy is collared</h1>
             <div class="pt-4 align-initial">
-                <p>
+                <p id="header-message">
                     You're probably here because you scanned a QR code/NFC tag
                     of a fox-like puppy-thing :3
                 </p>
@@ -312,6 +312,100 @@
                     </a>
                 </p>
             </div>
+            <script>
+                const ANIMATION_CONFIG = {
+                    delays: {
+                        initial: 1000,
+                        fadeOut: 500,
+                        betweenMessages: 1000,
+                    },
+                    transition: 'opacity 0.5s ease-in-out',
+                    height: '10rem',
+                };
+
+                const MESSAGES = {
+                    intermediate: '<br/><br/>oooh... wait a minute...',
+                    final: '<br/><br/>...you <strong>are</strong> here because you scanned a collar!!!',
+                };
+
+                const delay = (ms) =>
+                    new Promise((resolve) => setTimeout(resolve, ms));
+
+                async function fadeElement(element, opacity, duration = 500) {
+                    return new Promise((resolve) => {
+                        element.style.opacity = opacity;
+                        setTimeout(resolve, duration);
+                    });
+                }
+
+                // Main animation sequence
+                async function playCollarAnimation() {
+                    const element = document.getElementById('header-message');
+
+                    if (!element) {
+                        console.warn('Header message element not found');
+                        return;
+                    }
+
+                    // Check for reduced motion preference
+                    const prefersReducedMotion = window.matchMedia(
+                        '(prefers-reduced-motion: reduce)'
+                    ).matches;
+                    if (prefersReducedMotion) {
+                        // Just update text immediately for users who prefer reduced motion
+                        element.innerHTML +=
+                            MESSAGES.intermediate + MESSAGES.final;
+                        return;
+                    }
+
+                    // Set up initial styling
+                    element.style.height = ANIMATION_CONFIG.height;
+                    element.style.transition = ANIMATION_CONFIG.transition;
+
+                    try {
+                        await delay(ANIMATION_CONFIG.delays.initial);
+
+                        await fadeElement(
+                            element,
+                            0,
+                            ANIMATION_CONFIG.delays.fadeOut
+                        );
+                        element.innerHTML += MESSAGES.intermediate;
+                        await fadeElement(
+                            element,
+                            1,
+                            ANIMATION_CONFIG.delays.fadeOut
+                        );
+
+                        await delay(ANIMATION_CONFIG.delays.betweenMessages);
+                        await fadeElement(
+                            element,
+                            0,
+                            ANIMATION_CONFIG.delays.fadeOut
+                        );
+                        element.innerHTML += MESSAGES.final;
+                        await fadeElement(
+                            element,
+                            1,
+                            ANIMATION_CONFIG.delays.fadeOut
+                        );
+                    } catch (error) {
+                        console.error('Animation error:', error);
+                        // Fallback: just show the final message
+                        element.innerHTML +=
+                            MESSAGES.intermediate + MESSAGES.final;
+                        element.style.opacity = 1;
+                    }
+                }
+
+                // Initialize when page loads
+                if (window.location.search.includes('ref=nfc')) {
+                    // Use requestAnimationFrame to ensure DOM is ready
+                    requestAnimationFrame(() => {
+                        playCollarAnimation();
+                    });
+                }
+            </script>
         </main>
     </body>
 </html>
