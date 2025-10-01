@@ -1,0 +1,7 @@
+BEGIN:VCARD
+VERSION:3.0
+FN;CHARSET=UTF-8: Sammy Fox
+N;CHARSET=UTF-8:Fox;Sammy;;;
+EMAIL;CHARSET=UTF-8;type=HOME,INTERNET:sam@theresnotime.co.uk
+URL;type=HOME;CHARSET=UTF-8:https://www.theresnotime.co.uk
+END:VCARD
