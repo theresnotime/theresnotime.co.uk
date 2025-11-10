@@ -30,6 +30,6 @@
     "browser-sync": "3.0.4",
     "firebase": "12.2.1",
     "prettier": "3.6.2",
-    "w3c-html-validator": "1.9.1"
+    "w3c-html-validator": "2.0.1"
   }
 }
