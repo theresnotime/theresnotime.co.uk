@@ -29,7 +29,7 @@
   "devDependencies": {
     "browser-sync": "3.0.4",
     "firebase": "12.2.1",
-    "prettier": "3.6.2",
+    "prettier": "3.7.3",
     "w3c-html-validator": "1.9.1"
   }
 }
