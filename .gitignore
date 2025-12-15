@@ -70,3 +70,4 @@ node_modules/
 node_modules/
 .vscode/
 public/index.bak.html
+public/cd-keys-raw.txt
