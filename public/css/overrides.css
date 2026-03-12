@@ -1,3 +1,28 @@
+/* Hover effect for footer 'written by a human' badge */
+.footer-human-img {
+    display: block;
+    max-width: 300px;
+    width: 100%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 1rem;
+    transition: filter 0.2s;
+}
+
+.footer-human-img:hover {
+    content: url('/img/written by a fox.svg');
+}
+/* Responsive image for footer 'written by a human' badge */
+.footer-human-img {
+    display: block;
+    max-width: 300px;
+    width: 100%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 1rem;
+}
 #profile-picture {
     border-radius: 1%;
 }
