@@ -75,11 +75,6 @@
         "href": "https://holly.mlem.systems",
         "src": "https://holly.mlem.systems/img/badges/holly.png"
     },
-    "famfo.xyz": {
-        "href": "https://famfo.xyz",
-        "src": "/img/btn/famfo_anim.gif",
-        "comment": "Taken locally because this often doesn't load"
-    },
     "filmroellchen.eu": {
         "href": "https://filmroellchen.eu",
         "src": "https://filmroellchen.eu/img/kleines_filmroellchen.png"
@@ -90,7 +85,10 @@
     },
     "eep.wtf": {
         "href": "https://eep.wtf",
-        "src": "https://eep.wtf/static/88x31/eep.gif"
+        "src": "https://eep.wtf/static/88x31/eep.gif",
+        "hidden": true,
+        "comment": "Link broken",
+        "dng": true
     },
     "sophari.org": {
         "href": "https://sophari.org",
@@ -195,7 +193,10 @@
     },
     "itycodes.org": {
         "href": "https://itycodes.org",
-        "src": "https://itycodes.org/88x31.png"
+        "src": "https://itycodes.org/88x31.png",
+        "hidden": true,
+        "comment": "Link broken",
+        "dng": true
     },
     "wolfyja.de": {
         "href": "https://wolfyja.de",

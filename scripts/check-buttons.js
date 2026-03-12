@@ -9,23 +9,26 @@ const temp_skip = [''];
 
 async function checkImageExists(url) {
     return new Promise((resolve, reject) => {
-        requestOptions = {
-            hostname: new URL(url).hostname,
-            path: new URL(url).pathname,
-            protocol: new URL(url).protocol,
+        const parsedUrl = new URL(url);
+        const options = {
             method: 'HEAD',
             rejectUnauthorized: false, // Allow self-signed certs
             headers: {
                 'User-Agent': 'check-buttons.js, from theresnotime.co.uk :3',
             },
+            servername: parsedUrl.hostname, // SNI fix
         };
-        https.get(requestOptions, (res) => {
+        const req = https.request(parsedUrl, options, (res) => {
             if (res.statusCode === 200) {
                 resolve(true);
             } else {
                 resolve(false);
             }
         });
+        req.on('error', (err) => {
+            resolve(false); // treat errors as missing image
+        });
+        req.end();
     });
 }
 
@@ -39,19 +42,29 @@ async function doCheck(file) {
             console.error(err);
             exit(1);
         }
-        const re = /"src": "(?<src_url>https?:\/\/.*?.(png|gif|jpg|apng))/gm;
-        for (const match of data.matchAll(re)) {
-            let img_url = match.groups.src_url;
+        let json;
+        try {
+            json = JSON.parse(data);
+        } catch (e) {
+            console.error('Could not parse JSON:', e);
+            exit(1);
+        }
+        for (const [key, value] of Object.entries(json)) {
+            if (!value.src || !value.src.match(/^https?:\/\//)) continue;
+            let img_url = value.src;
             if (temp_skip.includes(img_url)) {
                 console.log(`Skipping ${img_url}`);
                 continue;
             }
             total_images++;
-            // http request to check if the image exists
             await checkImageExists(img_url).then((exists) => {
                 if (!exists) {
                     errors = true;
-                    missing_images.push(img_url);
+                    let msg = img_url + ' (button: ' + key + ')';
+                    if (value.hidden) {
+                        msg += ' [hidden: true]';
+                    }
+                    missing_images.push(msg);
                 }
             });
         }
