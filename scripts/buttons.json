@@ -234,5 +234,10 @@
     "lunyathe.gay": {
         "href": "http://lunyathe.gay",
         "src": "/img/btn/lunyathegay.gif"
+    },
+    "byte": {
+        "href": "https://byte.at.awawa.club",
+        "src": "https://byte.at.awawa.club/88x31.jpg",
+        "alt": "88x31 button, enby flag with Byte written on it, and a botsona"
     }
 }
