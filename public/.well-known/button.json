@@ -1,8 +1,11 @@
-[
-    {
-        "id": "theresnotime",
-        "uri": "https://www.theresnotime.co.uk/button.png",
-        "alt": "theresnotime.co.uk button",
-        "link": "https://www.theresnotime.co.uk"
-    }
-]
+{
+    "$schema": "https://codeberg.org/LunarEclipse/well-known-button/raw/branch/main/drafts/draft-filmroellchen-lunar-well-known-button-01.schema.json",
+    "buttons": [
+        {
+            "id": "theresnotime",
+            "uri": "https://www.theresnotime.co.uk/button.png",
+            "alt": "theresnotime.co.uk button",
+            "link": "https://www.theresnotime.co.uk"
+        }
+    ]
+}
